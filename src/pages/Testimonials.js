@@ -1,10 +1,13 @@
 import React from 'react';
-import Card from '../components/Card';
 import '../styles/Testimonials.css'
+import Card from '../components/Card';
+import CardOneImg from '../components/CardOneImg';
 import MarcusPic from '../assets/new-pics/marcusb.JPEG'
 import ShevBef from '../assets/new-pics/shevBefore.png'
 import ShevAft from '../assets/new-pics/shevAfter.png'
-import CardOneImg from '../components/CardOneImg';
+import AshB from '../assets/new-pics/ashkanBefore.png'
+import AshA from '../assets/new-pics/ashkanAfter.png'
+
 
 
 function Testimonials() {
@@ -33,6 +36,17 @@ I started training with him about 2 years ago, and haven’t looked back since. 
                     img2={ShevAft}
 
                 />
+                <div className='card3'>
+                    <Card
+                        name="Ashkan M."
+                        test="'Training with Lukas remotely and in person has been one of the best experiences I've ever had with a personal trainer. 
+                    I've had multiple trainers in the past and never really got to where I wanted to be. After training with Lukas for the past 6+ months, I've noticed a difference 
+                    in my body and overall health goals. I highly recommend anyone interested in any form of training to work with Lukas.'"
+                        img={AshB}
+                        img2={AshA}
+
+                    />
+                </div>
             </div>
         </div>
     )
