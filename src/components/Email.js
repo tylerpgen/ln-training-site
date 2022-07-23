@@ -6,11 +6,11 @@ export function ContactUs() {
     const form = useRef()
 
     function sendEmail(e) {
-        e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+        e.preventDefault();
 
         emailjs.sendForm('service_ivyy1wm', 'template_dogaagf', form.current, 'JEYUAQZAlO_LgTg9t')
             .then((result) => {
-                window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+                window.location.reload()
             }, (error) => {
                 console.log(error.text);
             });
