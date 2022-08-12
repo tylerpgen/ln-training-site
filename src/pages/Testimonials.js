@@ -30,7 +30,7 @@ function Testimonials() {
         <Card
           name="Shaviv D."
           test="'Lukas is extremely knowledgeable of anatomy and his craft! He knows exactly how to ease you into a program and a routine, to not get you discouraged and to bring you the best results possible.
-I started training with him about 2 years ago, and haven’t looked back since. He makes programs and sessions that put you to work, but also is sure to incorporate exercises that you enjoy. You always leave feeling good!' -via Google Reviews "
+I started training with him about 2 years ago, and haven’t looked back since. He makes programs and sessions that put you to work, but also is sure to incorporate exercises that you enjoy. You always leave feeling good!'"
           img={ShevBef}
           img2={ShevAft}
         />
