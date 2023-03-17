@@ -8,6 +8,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import Products from "./pages/Products";
 import Footer from "./components/Footer";
 
 const theme = createTheme();
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" exact element={<Home />} />
             <Route path="/testimonial" exact element={<Testimonials />} />
             <Route path="/contact" exact element={<Contact />} />
+            <Route path="/products" exact element={<Products />} />
           </Routes>
           <Footer className="footer" />
         </div>

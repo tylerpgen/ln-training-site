@@ -8,7 +8,7 @@ const navigationLinks = [
   { name: "Home", href: "/" },
   { name: "Testimonials", href: "/testimonial" },
   { name: "Contact", href: "/contact" },
-  { name: "Products", href: "/" },
+  { name: "Products", href: "/products" },
 ];
 
 const NewNavbar = () => {
