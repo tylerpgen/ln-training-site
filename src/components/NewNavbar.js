@@ -7,8 +7,8 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 const navigationLinks = [
   { name: "Home", href: "/" },
   { name: "Testimonials", href: "/testimonial" },
-  { name: "Contact", href: "/contact" },
   { name: "Products", href: "/products" },
+  { name: "Contact", href: "/contact" },
 ];
 
 const NewNavbar = () => {
