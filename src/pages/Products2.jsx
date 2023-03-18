@@ -1,5 +1,5 @@
 import { Container, Grid, Typography, Link } from "@mui/material";
-import { gymBag } from "../products.jsx";
+import { gymBag } from "../assets/data/products";
 
 import ProductCard from "../components/ProductCard.jsx";
 

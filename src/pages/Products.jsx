@@ -1,5 +1,5 @@
 import { Container, Grid, Typography, Link } from "@mui/material";
-import { products, highProtein, preWorkout } from "../products.jsx";
+import { products, highProtein, preWorkout } from "../assets/data/products";
 
 import ProductCard from "../components/ProductCard.jsx";
 

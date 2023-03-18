@@ -11,7 +11,6 @@ import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import Products2 from "./pages/Products2";
 import NewFooter from "./components/NewFooter";
-import Footer from "./components/Footer";
 
 const theme = createTheme();
 
