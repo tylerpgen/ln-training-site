@@ -2,7 +2,7 @@ import { Grid, Card, CardMedia, CardContent, Typography, CardActionArea } from "
 
 const ProductCard = ({ product }) => {
   return (
-    <Grid item xs={12} sm={6} md={4} key={product.id}>
+    <Grid item sm={12} md={6} lg={4} key={product.id}>
       <Card>
         <CardActionArea component="a" href={product.link} target="_blank">
           <CardMedia
