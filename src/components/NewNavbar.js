@@ -34,13 +34,13 @@ const NewNavbar = () => {
           : null}
         {!isNonMobileScreens ? (
           <IconButton sx={{ ml: "auto" }}>
-            <MenuIcon sx={{ color: "white", fontSize: 80 }} onClick={() => setOpen(true)} />
+            <MenuIcon sx={{ color: "white", fontSize: 40 }} onClick={() => setOpen(true)} />
           </IconButton>
         ) : null}
       </Toolbar>
       <SwipeableDrawer anchor="right" open={open} onOpen={() => setOpen(true)} onClose={() => setOpen(false)}>
         <IconButton>
-          <ChevronRightIcon sx={{ color: "black", fontSize: 80 }} onClick={() => setOpen(false)} />
+          <ChevronRightIcon sx={{ color: "black", fontSize: 40 }} onClick={() => setOpen(false)} />
         </IconButton>
         <Divider sx={{ backgroundColor: "black", height: "4px" }} />
         <List>
@@ -53,7 +53,7 @@ const NewNavbar = () => {
                 href={item.href}
                 sx={{ color: "black", "&:hover": { color: "black" } }}
               >
-                <Typography variant="h6" fontWeight="bold" sx={{ fontSize: "3rem" }}>
+                <Typography variant="h6" fontWeight="bold" sx={{ fontSize: "1.5rem" }}>
                   {item.name}
                 </Typography>
               </Link>

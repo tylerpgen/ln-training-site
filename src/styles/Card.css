@@ -71,10 +71,10 @@
     height: auto;
   }
   .flex-container-two .content-left h2 {
-    font-size: 4em;
+    font-size: 1.5rem;
   }
   .flex-container-two .content-left p {
-    font-size: 2.5em;
+    font-size: 1rem;
   }
 }
 
