@@ -18,7 +18,10 @@ const ProductPage = () => {
         ))}
       </Grid>
       <Container sx={{ justifyContent: "center", textAlign: "center", margin: "10px 0" }}>
-        <Link href="/products" sx={{ color: "black", textDecoration: "none", "&:hover": { color: "black" } }}>
+        <Link
+          href="/products"
+          sx={{ fontSize: "1.5rem", color: "black", textDecoration: "none", "&:hover": { color: "black" } }}
+        >
           Prev Page
         </Link>
       </Container>

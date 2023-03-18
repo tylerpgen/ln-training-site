@@ -148,7 +148,7 @@ export const gymBag = [
     image: "https://m.media-amazon.com/images/I/71zLSC8D3lL._AC_SX679_.jpg",
     link: "https://amzn.to/3llwMzc",
     description:
-      "If your gym does not have a long rope attachment, this is a great tool to have to get full range of motion on tricep cable exercises, and a more comfortable grip than other attachments.",
+      "Trouble getting low in those squats? These will help with the ankle mobility aspect of your squat. A great way to target the quads more and regress a normal squat to get better range of motion.",
   },
   {
     id: 18,
