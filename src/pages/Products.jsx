@@ -1,9 +1,8 @@
 import { Container, Grid, Typography, Link } from "@mui/material";
 import { products, highProtein, preWorkout } from "../assets/data/products";
-
 import ProductCard from "../components/ProductCard.jsx";
 
-const ProductPage = () => {
+function ProductPage() {
   return (
     <Container maxWidth="lg">
       <Typography variant="h4" align="center" mt={4} mb={2} fontWeight="bold">
@@ -40,6 +39,6 @@ const ProductPage = () => {
       </Container>
     </Container>
   );
-};
+}
 
 export default ProductPage;
