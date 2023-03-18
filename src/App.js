@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
+import Products2 from "./pages/Products2";
+import NewFooter from "./components/NewFooter";
 import Footer from "./components/Footer";
 
 const theme = createTheme();
@@ -24,8 +26,9 @@ function App() {
             <Route path="/testimonial" exact element={<Testimonials />} />
             <Route path="/contact" exact element={<Contact />} />
             <Route path="/products" exact element={<Products />} />
+            <Route path="/products/2" exact element={<Products2 />} />
           </Routes>
-          <Footer className="footer" />
+          <NewFooter />
         </div>
       </ThemeProvider>
     </Router>
