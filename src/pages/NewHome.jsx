@@ -56,7 +56,7 @@ const NewHome = () => {
               },
             }}
           >
-            Your Fitness Your Way
+            Your Fitness Your Way Your Time
           </Typography>
           <Container sx={{ mt: "10px" }}>
             <Link href="/contact" sx={{ textDecoration: "none" }}>
