@@ -195,26 +195,28 @@ const NewHome = () => {
               >
                 "Health, performance, and longevity are not a matter of chance, it's a matter of choice"
               </Typography>
-              <Button
-                variant="contained"
-                sx={{
-                  backgroundColor: "#950101",
-                  width: "fit-content",
-                  margin: "25px auto",
-
-                  "&:hover": {
+              <Link href="/contact" sx={{ textDecoration: "none" }}>
+                <Button
+                  variant="contained"
+                  sx={{
                     backgroundColor: "#950101",
-                    transform: "scale(1.1)",
-                    transition: "all 0.1s ease-in-out",
-                  },
-                  [theme.breakpoints.up("lg")]: {
-                    mb: "50px",
-                    fontSize: "1.2rem",
-                  },
-                }}
-              >
-                Schedule a Consultation NOW
-              </Button>
+                    width: "fit-content",
+                    margin: "25px auto",
+
+                    "&:hover": {
+                      backgroundColor: "#950101",
+                      transform: "scale(1.1)",
+                      transition: "all 0.1s ease-in-out",
+                    },
+                    [theme.breakpoints.up("lg")]: {
+                      mb: "50px",
+                      fontSize: "1.2rem",
+                    },
+                  }}
+                >
+                  Schedule a Consultation NOW
+                </Button>
+              </Link>
             </>
           ) : (
             <>
