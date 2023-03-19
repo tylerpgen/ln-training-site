@@ -23,6 +23,14 @@ export const products = [
     description:
       "One of my personal favorites for vegan protein. Taste is great, price is reasonable and there are many flavor options for shakes and smoothies.",
   },
+  {
+    id: 4,
+    name: "Whey ISO Protein Powder",
+    image: "https://i.ebayimg.com/images/g/rmYAAOSw4IBizXbX/s-l1600.jpg",
+    link: "https://amzn.to/3LuxTaF",
+    description:
+      "One of the best tasting whey protein powders I’ve had. Several flavors and an isolate formula that helps with digestion, especially with people who are sensitive to lactose.",
+  },
 ];
 
 export const highProtein = [
