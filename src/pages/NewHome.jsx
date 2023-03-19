@@ -15,9 +15,8 @@ const NewHome = () => {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    [theme.breakpoints.up("lg")]: {
-      alignItems: "center",
-    },
+    alignItems: "center",
+    [theme.breakpoints.up("lg")]: {},
     minHeight: "100vh",
     minWidth: "100%",
   });
@@ -88,6 +87,7 @@ const NewHome = () => {
             <Typography
               variant="h3"
               fontWeight="bold"
+              fontFamily="Open Sans"
               color="white"
               sx={{
                 mb: "8px",
@@ -122,7 +122,7 @@ const NewHome = () => {
                     height: "50px",
                     width: "fit-content",
                     backgroundColor: "#950101",
-                    fontWeight: "bold",
+
                     "&:hover": {
                       backgroundColor: "#950101",
                       transform: "scale(1.1)",
@@ -276,25 +276,27 @@ const NewHome = () => {
                 </Typography>
               </Grow>
               <Grow in={trigger} timeout={900} onEntered={handleFadeIn}>
-                <Button
-                  variant="contained"
-                  sx={{
-                    backgroundColor: "#950101",
-                    width: "fit-content",
-                    margin: "25px auto",
-                    "&:hover": {
+                <Link href="/contact" sx={{ textDecoration: "none" }}>
+                  <Button
+                    variant="contained"
+                    sx={{
                       backgroundColor: "#950101",
-                      transform: "scale(1.1)",
-                      transition: "all 0.1s ease-in-out",
-                    },
-                    [theme.breakpoints.up("lg")]: {
-                      mb: "50px",
-                      fontSize: "1.2rem",
-                    },
-                  }}
-                >
-                  Schedule a Consultation NOW
-                </Button>
+                      width: "fit-content",
+                      margin: "25px auto",
+                      "&:hover": {
+                        backgroundColor: "#950101",
+                        transform: "scale(1.1)",
+                        transition: "all 0.1s ease-in-out",
+                      },
+                      [theme.breakpoints.up("lg")]: {
+                        mb: "50px",
+                        fontSize: "1.2rem",
+                      },
+                    }}
+                  >
+                    Schedule a Consultation NOW
+                  </Button>
+                </Link>
               </Grow>
             </>
           )}
