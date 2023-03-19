@@ -58,14 +58,6 @@ export const highProtein = [
     description:
       "If you need a change from protein shakes and protein bars, this is it! Incredible taste, multiple flavors, and better MACROS than most protein bars. 140 calories and 20g of protein!",
   },
-  {
-    id: 6,
-    name: "Quest Protein Chips",
-    image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81ALYAT5DzL.jpg",
-    link: "https://amzn.to/3laXPgN",
-    description:
-      "If you need a change from protein shakes and protein bars, this is it! Incredible taste, multiple flavors, and better MACROS than most protein bars. 140 calories and 20g of protein!",
-  },
 ];
 
 export const preWorkout = [
