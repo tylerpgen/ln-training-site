@@ -17,7 +17,7 @@ const ProductPage = () => {
           <ProductCard product={product} />
         ))}
       </Grid>
-      <Container sx={{ justifyContent: "center", textAlign: "center", margin: "10px 0" }}>
+      <Container sx={{ justifyContent: "center", textAlign: "center", margin: "25px 0" }}>
         <Link
           href="/products"
           sx={{ fontSize: "1.5rem", color: "black", textDecoration: "none", "&:hover": { color: "black" } }}

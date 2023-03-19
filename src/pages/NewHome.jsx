@@ -105,6 +105,7 @@ const NewHome = () => {
               fontStyle="italic"
               color="white"
               sx={{
+                padding: "0 5px",
                 [theme.breakpoints.up("lg")]: {
                   fontSize: "2rem",
                 },
@@ -112,7 +113,7 @@ const NewHome = () => {
             >
               Personal Training | Sports Performance | Online Coaching & Programming
             </Typography>
-            <Box sx={{ mt: "10px" }}>
+            <Box sx={{ mt: "10px", p: "15px" }}>
               <Link href="/contact" sx={{ textDecoration: "none" }}>
                 <Button
                   variant="contained"
@@ -150,6 +151,7 @@ const NewHome = () => {
                 fontSize="1.5rem"
                 sx={{
                   alignItems: "center",
+                  textAlign: "center",
                   margin: "8px auto",
                   [theme.breakpoints.up("lg")]: {
                     fontSize: "2rem",
@@ -165,6 +167,7 @@ const NewHome = () => {
                 fontSize="1.1rem"
                 sx={{
                   alignItems: "center",
+                  textAlign: "center",
                   margin: "0 auto",
                   [theme.breakpoints.up("lg")]: {
                     fontSize: "1.5rem",
@@ -178,6 +181,7 @@ const NewHome = () => {
                 fontSize="1.1rem"
                 sx={{
                   alignItems: "center",
+                  textAlign: "center",
                   padding: "10px",
                   margin: "0 12px",
                   [theme.breakpoints.up("lg")]: {
@@ -193,6 +197,7 @@ const NewHome = () => {
                   backgroundColor: "#950101",
                   width: "fit-content",
                   margin: "25px auto",
+
                   "&:hover": {
                     backgroundColor: "#950101",
                     transform: "scale(1.1)",
@@ -219,6 +224,7 @@ const NewHome = () => {
                   fontSize="1.5rem"
                   sx={{
                     alignItems: "center",
+                    textAlign: "center",
                     margin: "8px auto",
                     [theme.breakpoints.up("lg")]: {
                       fontSize: "2rem",
@@ -236,6 +242,7 @@ const NewHome = () => {
                   fontSize="1.1rem"
                   sx={{
                     alignItems: "center",
+                    textAlign: "center",
                     margin: "0 auto",
                     [theme.breakpoints.up("lg")]: {
                       fontSize: "1.5rem",
@@ -251,6 +258,7 @@ const NewHome = () => {
                   fontSize="1.1rem"
                   sx={{
                     alignItems: "center",
+                    textAlign: "center",
                     padding: "10px",
                     margin: "0 12px",
                     [theme.breakpoints.up("lg")]: {
