@@ -32,8 +32,8 @@ const Footer = () => {
             </IconButton>
           </Grid>
         </Grid>
-        <Typography variant="body2" align="center" color="white">
-          Copyright© {currentyear}
+        <Typography variant="body2" align="center" color="white" sx={{ fontSize: "11px" }}>
+          TG Copyright© {currentyear}
         </Typography>
       </Container>
     </Box>
