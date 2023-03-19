@@ -9,14 +9,6 @@ function ProductPage() {
         My Favorite Products
       </Typography>
       <Typography variant="h5" color="secondaryText" align="center" mt={4} mb={2} fontWeight="bold">
-        Everyday Supplements
-      </Typography>
-      <Grid container spacing={4}>
-        {products.map((product) => (
-          <ProductCard product={product} />
-        ))}
-      </Grid>
-      <Typography variant="h5" color="secondaryText" align="center" mt={4} mb={2} fontWeight="bold">
         High Protein Supplements
       </Typography>
       <Grid container spacing={4}>
@@ -29,6 +21,14 @@ function ProductPage() {
       </Typography>
       <Grid container spacing={4}>
         {preWorkout.map((product) => (
+          <ProductCard product={product} />
+        ))}
+      </Grid>
+      <Typography variant="h5" color="secondaryText" align="center" mt={4} mb={2} fontWeight="bold">
+        Everyday Supplements
+      </Typography>
+      <Grid container spacing={4}>
+        {products.map((product) => (
           <ProductCard product={product} />
         ))}
       </Grid>

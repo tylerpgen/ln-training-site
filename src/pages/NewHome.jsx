@@ -8,7 +8,7 @@ const NewHome = () => {
   const BackgroundImage = styled("div")({
     backgroundImage: `url(${GymPic})`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    backgroundPosition: "left top",
     backgroundSize: "cover",
     height: "100vh",
     width: "100%",
