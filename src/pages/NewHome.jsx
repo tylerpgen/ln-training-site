@@ -118,15 +118,19 @@ const NewHome = () => {
                 <Button
                   variant="contained"
                   sx={{
-                    fontSize: "1.1rem",
+                    fontSize: "1rem",
                     height: "50px",
-                    width: "150px",
+                    width: "fit-content",
                     backgroundColor: "#950101",
                     fontWeight: "bold",
                     "&:hover": {
                       backgroundColor: "#950101",
                       transform: "scale(1.1)",
                       transition: "all 0.1s ease-in-out",
+                    },
+                    [theme.breakpoints.up("lg")]: {
+                      fontSize: "2rem",
+                      width: "300px",
                     },
                   }}
                 >
