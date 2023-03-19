@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.content-container {
+  min-height: 100vh;
+}
 
 .info-container {
   display: flex;
