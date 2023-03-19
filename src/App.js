@@ -1,12 +1,9 @@
-import React from "react";
-// import Navbar from "./components/Navbar";
 import { ThemeProvider } from "@emotion/react";
 import { createTheme } from "@mui/material/styles";
 import NewNavbar from "./components/NewNavbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-// import NewHome from "./pages/NewHome";
-import Home from "./pages/Home";
+import NewHome from "./pages/NewHome";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
@@ -19,17 +16,15 @@ function App() {
   return (
     <Router>
       <ThemeProvider theme={theme}>
-        <div className="content-wrapper">
-          <NewNavbar />
-          <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/testimonial" exact element={<Testimonials />} />
-            <Route path="/contact" exact element={<Contact />} />
-            <Route path="/products" exact element={<Products />} />
-            <Route path="/products/2" exact element={<Products2 />} />
-          </Routes>
-          <NewFooter />
-        </div>
+        <NewNavbar />
+        <Routes>
+          <Route path="/" exact element={<NewHome />} />
+          <Route path="/testimonial" exact element={<Testimonials />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/products" exact element={<Products />} />
+          <Route path="/products/2" exact element={<Products2 />} />
+        </Routes>
+        <NewFooter />
       </ThemeProvider>
     </Router>
   );
