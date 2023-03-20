@@ -10,8 +10,6 @@
 
 .info-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 2%;
 }
 
@@ -29,7 +27,7 @@
 }
 
 h1 {
-  padding-top: 16px;
+  padding-top: 35px;
   font-family: Roboto;
   font-weight: bold;
   font-size: 2.5rem;

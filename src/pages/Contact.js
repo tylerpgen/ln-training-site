@@ -6,7 +6,17 @@ import "../styles/Contact.css";
 function Contact() {
   return (
     <div className="content-container">
-      <h1>Let's Get Started!</h1>
+      <Typography
+        variant="h2"
+        align="center"
+        fontSize="3rem"
+        paddingTop="20px"
+        marginTop="25px"
+        fontWeight="bold"
+        fontFamily="Roboto"
+      >
+        Let's Get Started!
+      </Typography>
       <div className="info-container">
         <div className="form">
           <Email />
