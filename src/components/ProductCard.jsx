@@ -19,7 +19,7 @@ const ProductCard = ({ product }) => {
               maxHeight: "150px",
             }}
           >
-            <Typography variant="h6" gutterBottom fontWeight="bold" textAlign="center">
+            <Typography variant="h5" gutterBottom fontFamily="Kanit" fontWeight="500" textAlign="center">
               {product.name}
             </Typography>
             <Typography variant="body2" color="black" fontSize="1rem" textAlign="center">
