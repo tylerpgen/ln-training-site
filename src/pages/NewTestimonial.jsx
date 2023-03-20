@@ -20,15 +20,15 @@ const TestimonialPaper = styled(Paper)(({ theme }) => ({
 const TestimonialImage = styled("img")(({ theme }) => ({
   minWidth: "50%",
   maxWidth: "50%",
-  maxHeight: "225px",
-  minHeight: "225px",
+  maxHeight: "1%",
+  // minHeight: "7%",
   margin: "0 8px",
   borderRadius: "10px",
   filter: "drop-shadow(0px 0px 2px #000)",
   [theme.breakpoints.up("lg")]: {
     filter: "drop-shadow(0px 0px 3px #000)",
-    maxWidth: "100px",
-    maxHeight: "350px",
+    minWidth: "250px",
+    maxHeight: "100%",
   },
 }));
 

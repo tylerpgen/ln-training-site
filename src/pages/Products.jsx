@@ -6,16 +6,20 @@ function ProductPage() {
   return (
     <Box sx={{ backgroundColor: "#2A2A2A", minHeight: "100vh" }}>
       <Container maxWidth="lg">
-        <Typography
-          variant="h4"
-          align="center"
-          pt={2}
-          mb={2}
-          fontWeight="bold"
-          fontFamily="Roboto"
-          sx={{ color: "white" }}
-        >
+        <Typography variant="h4" align="center" pt={2} fontWeight="bold" fontFamily="Roboto" sx={{ color: "white" }}>
           My Favorite Products
+        </Typography>
+        <Typography
+          variant="h6"
+          fontSize="1.4rem"
+          color="white"
+          align="center"
+          mt="8px"
+          fontFamily="Kanit"
+          fontWeight="300"
+          fontStyle="italic"
+        >
+          Links to some of my favorite fitness and nutrition items!
         </Typography>
         <Typography
           variant="h5"
@@ -23,7 +27,7 @@ function ProductPage() {
           color="white"
           align="center"
           fontFamily="Kanit"
-          mt={4}
+          mt={2}
           mb={2}
           fontWeight="300"
         >
