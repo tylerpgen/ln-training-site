@@ -20,7 +20,8 @@ const TestimonialPaper = styled(Paper)(({ theme }) => ({
 const TestimonialImage = styled("img")(({ theme }) => ({
   minWidth: "50%",
   maxWidth: "50%",
-  maxHeight: "1%",
+  minHeight: "100%",
+  maxHeight: "290px",
   // minHeight: "7%",
   margin: "0 8px",
   borderRadius: "10px",
