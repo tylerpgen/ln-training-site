@@ -4,7 +4,6 @@ import NewNavbar from "./components/NewNavbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NewHome from "./pages/NewHome";
-import Testimonials from "./pages/Testimonials";
 import NewTestimonial from "./pages/NewTestimonial";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";

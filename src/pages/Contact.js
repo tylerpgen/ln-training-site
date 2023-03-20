@@ -1,5 +1,6 @@
+import { Typography } from "@mui/material";
 import React from "react";
-import { ContactUs } from "../components/Email";
+import { Email } from "../components/Email";
 import "../styles/Contact.css";
 
 function Contact() {
@@ -8,21 +9,27 @@ function Contact() {
       <h1>Let's Get Started!</h1>
       <div className="info-container">
         <div className="form">
-          <ContactUs />
+          <Email />
         </div>
         <div className="information">
           <div className="address">
-            <h2>Address</h2>
+            <Typography variant="h4" p="5px" color="white" fontWeight="bold">
+              Address
+            </Typography>
             <p>
               19724 Gilmore St <br /> Woodland Hills, CA{" "}
             </p>
           </div>
           <div className="phone-container">
-            <h2 className="phone-number">Phone Number</h2>
+            <Typography variant="h4" p="5px" color="white" fontWeight="bold">
+              Phone Number
+            </Typography>
             <p>(818) 626-6936</p>
           </div>
           <div className="email-container">
-            <h2 className="email">E-mail</h2>
+            <Typography variant="h4" p="5px" color="white" fontWeight="bold">
+              E-mail
+            </Typography>
             <p>lukas@lntraining.co</p>
           </div>
         </div>

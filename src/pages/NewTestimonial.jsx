@@ -24,7 +24,9 @@ const TestimonialImage = styled("img")(({ theme }) => ({
   minHeight: "225px",
   margin: "0 8px",
   borderRadius: "10px",
+  filter: "drop-shadow(0px 0px 2px #000)",
   [theme.breakpoints.up("lg")]: {
+    filter: "drop-shadow(0px 0px 3px #000)",
     maxWidth: "100px",
     maxHeight: "350px",
   },
@@ -42,6 +44,7 @@ const ImageContainer = styled(Box)(({ theme }) => ({
 
 const ReviewText = styled(Typography)(({ theme }) => ({
   fontSize: "1rem",
+  fontFamily: "Roboto",
   padding: "0 10px",
   margin: "10px auto",
   [theme.breakpoints.up("lg")]: {
@@ -58,10 +61,10 @@ const NewTestimonial = () => {
     <Box sx={{ m: "0 auto", minHeight: "100vh", backgroundColor: "#2A2A2A" }}>
       <Fade in={true} timeout={1000}>
         <Typography
-          variant="h3"
+          variant="h4"
           align="center"
           fontWeight="bold"
-          fontFamily="Open Sans"
+          fontFamily="Roboto"
           sx={{ color: "white", pt: "10px" }}
         >
           Testimonials
@@ -72,6 +75,8 @@ const NewTestimonial = () => {
           variant="h5"
           align="center"
           fontWeight="light"
+          fontFamily="Kanit"
+          fontStyle="italic"
           sx={{
             fontSize: "1.3rem",
             color: "white",
@@ -88,11 +93,12 @@ const NewTestimonial = () => {
 
       {clientData.map((testimonial, i) => (
         <Grow in={true} timeout={800}>
-          <Box key={i} sx={{ m: "0 auto", p: "10px" }}>
+          <Box key={i} sx={{ m: "0 auto", p: "10px", mb: "15px" }}>
             <TestimonialPaper elevation={5}>
               <Typography
                 variant="h4"
-                fontWeight="bold"
+                fontWeight="500"
+                fontFamily="Kanit"
                 align="center"
                 mb="20px"
                 sx={{
