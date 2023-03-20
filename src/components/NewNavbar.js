@@ -26,7 +26,7 @@ const NewNavbar = () => {
                 href={item.href}
                 sx={{ mx: 10, color: "white", "&:hover": { color: "white" } }}
               >
-                <Typography variant="h6" fontWeight="bold">
+                <Typography variant="h6" fontWeight="bold" fontFamily="Roboto">
                   {item.name}
                 </Typography>
               </Link>
@@ -42,7 +42,7 @@ const NewNavbar = () => {
         <IconButton>
           <ChevronRightIcon sx={{ color: "black", fontSize: 40 }} onClick={() => setOpen(false)} />
         </IconButton>
-        <Divider sx={{ backgroundColor: "black", height: "4px" }} />
+        <Divider sx={{ backgroundColor: "black", height: "1px" }} />
         <List>
           {navigationLinks.map((item) => (
             <ListItem>
@@ -53,7 +53,7 @@ const NewNavbar = () => {
                 href={item.href}
                 sx={{ color: "black", "&:hover": { color: "black" } }}
               >
-                <Typography variant="h6" fontWeight="bold" sx={{ fontSize: "1.5rem" }}>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Roboto" sx={{ fontSize: "1.5rem" }}>
                   {item.name}
                 </Typography>
               </Link>

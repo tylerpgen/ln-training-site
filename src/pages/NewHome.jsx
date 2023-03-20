@@ -102,6 +102,7 @@ const NewHome = () => {
             <Typography
               variant="h6"
               fontWeight="light"
+              fontFamily="Kanit"
               fontStyle="italic"
               color="white"
               sx={{
@@ -118,7 +119,9 @@ const NewHome = () => {
                 <Button
                   variant="contained"
                   sx={{
-                    fontSize: "1rem",
+                    fontSize: "1.4rem",
+                    fontFamily: "Kanit",
+                    fontWeight: "500",
                     height: "50px",
                     width: "fit-content",
                     backgroundColor: "#950101",
@@ -130,7 +133,7 @@ const NewHome = () => {
                     },
                     [theme.breakpoints.up("lg")]: {
                       fontSize: "2rem",
-                      width: "300px",
+                      width: "250px",
                     },
                   }}
                 >
@@ -166,7 +169,8 @@ const NewHome = () => {
               </Typography>
               <Typography
                 variant="h5"
-                fontWeight="bold"
+                fontFamily="Kanit"
+                fontWeight="500"
                 fontStyle="italic"
                 fontSize="1.1rem"
                 sx={{
@@ -188,6 +192,7 @@ const NewHome = () => {
                   textAlign: "center",
                   padding: "10px",
                   margin: "0 12px",
+
                   [theme.breakpoints.up("lg")]: {
                     fontSize: "1.3rem",
                   },
@@ -202,6 +207,9 @@ const NewHome = () => {
                     backgroundColor: "#950101",
                     width: "fit-content",
                     margin: "25px auto",
+                    fontFamily: "Kanit",
+                    fontSize: "1.1rem",
+                    fontWeight: "500",
 
                     "&:hover": {
                       backgroundColor: "#950101",
@@ -243,7 +251,8 @@ const NewHome = () => {
               <Grow in={trigger} timeout={900} onEntered={handleFadeIn}>
                 <Typography
                   variant="h5"
-                  fontWeight="bold"
+                  fontFamily="Kanit"
+                  fontWeight="500"
                   fontStyle="italic"
                   fontSize="1.1rem"
                   sx={{
@@ -283,6 +292,10 @@ const NewHome = () => {
                       backgroundColor: "#950101",
                       width: "fit-content",
                       margin: "25px auto",
+                      fontFamily: "Kanit",
+                      fontSize: "1.1rem",
+                      fontWeight: "500",
+
                       "&:hover": {
                         backgroundColor: "#950101",
                         transform: "scale(1.1)",
@@ -324,7 +337,7 @@ const NewHome = () => {
             }}
           >
             <Paper elevation={5} sx={{ p: 2, margin: "0 8px" }}>
-              <Typography variant="h5" fontWeight="bold" sx={{ textAlign: "center" }}>
+              <Typography variant="h4" fontWeight="500" fontFamily="Kanit" sx={{ textAlign: "center" }}>
                 About Me
               </Typography>
               <Typography variant="body1" sx={{ mt: "8px", textIndent: "1.5em" }}>
