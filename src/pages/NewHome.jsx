@@ -2,7 +2,7 @@ import { useTheme } from "@emotion/react";
 import { Typography, Button, Link, Box, Grow, Fade, useScrollTrigger, Paper } from "@mui/material";
 import { styled } from "@mui/system";
 import { useState } from "react";
-import GymPic from "../assets/new-pics/gympic.png";
+import GymPic from "../assets/gympic.jpg";
 import Portrait from "../assets/new-pics/newportrait.png";
 import TrainingPic1 from "../assets/new-pics/trainingpic1.png";
 

@@ -1,4 +1,4 @@
-import { Typography, Box, Paper, Grow, Fade } from "@mui/material";
+import { Typography, Box, Paper } from "@mui/material";
 import { useTheme } from "@emotion/react";
 import { clientData } from "../assets/data/clients";
 import { styled } from "@mui/system";
@@ -60,69 +60,58 @@ const NewTestimonial = () => {
 
   return (
     <Box sx={{ m: "0 auto", minHeight: "100vh", backgroundColor: "#2A2A2A" }}>
-      <Fade in={true} timeout={1000}>
-        <Typography
-          variant="h4"
-          align="center"
-          fontWeight="bold"
-          fontFamily="Roboto"
-          sx={{ color: "white", pt: "10px" }}
-        >
-          Testimonials
-        </Typography>
-      </Fade>
-      <Fade in={true} timeout={1000}>
-        <Typography
-          variant="h5"
-          align="center"
-          fontWeight="light"
-          fontFamily="Kanit"
-          fontStyle="italic"
-          sx={{
-            fontSize: "1.3rem",
-            color: "white",
-            mt: "0",
-            p: "0 3px",
-            [theme.breakpoints.up("lg")]: {
-              fontSize: "1.6rem",
-            },
-          }}
-        >
-          My amazing clients and their stories!
-        </Typography>
-      </Fade>
+      <Typography variant="h4" align="center" fontWeight="bold" fontFamily="Roboto" sx={{ color: "white", pt: "10px" }}>
+        Testimonials
+      </Typography>
+
+      <Typography
+        variant="h5"
+        align="center"
+        fontWeight="light"
+        fontFamily="Kanit"
+        fontStyle="italic"
+        sx={{
+          fontSize: "1.3rem",
+          color: "white",
+          mt: "0",
+          p: "0 3px",
+          [theme.breakpoints.up("lg")]: {
+            fontSize: "1.6rem",
+          },
+        }}
+      >
+        My amazing clients and their stories!
+      </Typography>
 
       {clientData.map((testimonial, i) => (
-        <Grow in={true} timeout={800}>
-          <Box key={i} sx={{ m: "0 auto", p: "10px", mb: "15px" }}>
-            <TestimonialPaper elevation={5}>
-              <Typography
-                variant="h4"
-                fontWeight="500"
-                fontFamily="Kanit"
-                align="center"
-                mb="20px"
-                sx={{
-                  [theme.breakpoints.up("lg")]: {
-                    mb: "20px",
-                  },
-                }}
-              >
-                {testimonial.name}
-              </Typography>
-              <ImageContainer>
-                <TestimonialImage src={testimonial.beforePic} alt="Before" />
-                <TestimonialImage src={testimonial.afterPic} alt="After" />
-              </ImageContainer>
-              <ReviewText variant="body1" align="center">
-                {testimonial.review}
-              </ReviewText>
-              <Typography variant="body2" fontSize="12px" fontStyle="italic">
-                -via Google Review
-              </Typography>
-            </TestimonialPaper>
-          </Box>
-        </Grow>
+        <Box key={i} sx={{ m: "0 auto", p: "10px", mb: "15px" }}>
+          <TestimonialPaper elevation={5}>
+            <Typography
+              variant="h4"
+              fontWeight="500"
+              fontFamily="Kanit"
+              align="center"
+              mb="20px"
+              sx={{
+                [theme.breakpoints.up("lg")]: {
+                  mb: "20px",
+                },
+              }}
+            >
+              {testimonial.name}
+            </Typography>
+            <ImageContainer>
+              <TestimonialImage src={testimonial.beforePic} alt="Before" />
+              <TestimonialImage src={testimonial.afterPic} alt="After" />
+            </ImageContainer>
+            <ReviewText variant="body1" align="center">
+              {testimonial.review}
+            </ReviewText>
+            <Typography variant="body2" fontSize="12px" fontStyle="italic">
+              -via Google Review
+            </Typography>
+          </TestimonialPaper>
+        </Box>
       ))}
     </Box>
   );

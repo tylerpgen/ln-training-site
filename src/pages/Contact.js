@@ -46,7 +46,10 @@ function Contact() {
       </div>
       <div className="form-button">
         <a href="https://forms.gle/Nmaz431NMJRiWzwCA" target="_blank" rel="noopener noreferrer">
-          <button className="client-form">New Client Form</button>
+          <button className="client-form">Personal Training Application</button>
+        </a>
+        <a href="https://forms.gle/Nmaz431NMJRiWzwCA" target="_blank" rel="noopener noreferrer">
+          <button className="client-form">Online Coaching & Programming Application</button>
         </a>
       </div>
     </div>
