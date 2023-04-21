@@ -10,14 +10,22 @@ import MarcusB from "../new-pics/marcusbefore.png";
 import MarcusA from "../new-pics/marcusafter.png";
 import RickyB from "../new-pics/RickyB.png";
 import RickyA from "../new-pics/RickyA.png";
+import BritB from "../new-pics/bb_before.jpg";
+import BritA from "../new-pics/bb_after.jpg";
 
 export const clientData = [
+  {
+    beforePic: BritB,
+    afterPic: BritA,
+    name: "Brittany B.",
+    review: `"Lukas has been the perfect trainer for my postpartum fitness journey. He pushes me when needed but at the same time understands my limitations. I highly recommend Lukas for anyone looking to start working out or enhance their current fitness regiment."`,
+  },
   {
     beforePic: MarcusB,
     afterPic: MarcusA,
     name: "Marcus B.",
     review: `"After a few months of working with Lukas, I'm down a total of 28 lbs. Functional strength has increased and I feel great. 
-    Since this ain't my first rodeo, I can honestly say that what separates Lukas from other personal trainers is the personal part. 
+    Since this ain't my first rodeo, I can honestly say that what separates Lukas from other personal trainers is the "personal" part. 
     I've never had another trainer track progress, isolate trouble areas or create a program that felt so individual to my needs. 
     At 43, I'm literally in the best shape that I've ever been. Thanks!"`,
   },
