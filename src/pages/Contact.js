@@ -17,10 +17,26 @@ function Contact() {
       >
         Let's Get Started!
       </Typography>
+      <div className="form-button">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSclaqcqgktzOZ-1o32ypGn8ZXl1gTv9OZY3J4Nq3iy5YheATA/viewform?vc=0&c=0&w=1&flr=0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="client-form">Personal Training Application</button>
+        </a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfgISTX7Up2ZX-mUZgiET_IYj1trEmnRP_selMI_zVr563KEQ/viewform?vc=0&c=0&w=1&flr=0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="client-form">Online Coaching & Programming Application</button>
+        </a>
+      </div>
       <div className="info-container">
-        <div className="form">
+        {/* <div className="form">
           <Email />
-        </div>
+        </div> */}
         <div className="information">
           <div className="address">
             <Typography variant="h4" p="5px" color="white" fontWeight="bold">
@@ -43,22 +59,6 @@ function Contact() {
             <p>lukas@lntraining.co</p>
           </div>
         </div>
-      </div>
-      <div className="form-button">
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSclaqcqgktzOZ-1o32ypGn8ZXl1gTv9OZY3J4Nq3iy5YheATA/viewform?vc=0&c=0&w=1&flr=0"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="client-form">Personal Training Application</button>
-        </a>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfgISTX7Up2ZX-mUZgiET_IYj1trEmnRP_selMI_zVr563KEQ/viewform?vc=0&c=0&w=1&flr=0"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="client-form">Online Coaching & Programming Application</button>
-        </a>
       </div>
     </div>
   );
