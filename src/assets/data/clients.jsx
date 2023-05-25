@@ -30,8 +30,8 @@ export const clientData = [
     At 43, I'm literally in the best shape that I've ever been. Thanks!"`,
   },
   {
-    beforePic: Caro,
-    afterPic: CaroB,
+    beforePic: CaroB,
+    afterPic: Caro,
     name: "Caroline Q.",
     review: `"For as long as I can remember, I’ve struggled with my physical health and mental health.  I was so nervous to start personal training to help combat these issues, but when I met Lukas on our first session, I knew he was the right fit for me! He is knowledgeable in his craft, but more importantly personable and patient with his clients and their issues going on outside of the gym. Fast forward 1 year later of consistently exercising with him, I’ve gone for 155lbs to 125lbs and I’ve never felt so confident in my self-image. I’m stronger and more confident than ever. Lukas has helped me so much with finding a healthier lifestyle and I can honestly say since starting with him, I am better version of myself down to the soul. If it weren’t for him, I don’t know where I’d be today. He is not only an amazing coach, but an amazing friend. 10/10 recommend to anyone starting a fitness journey."`,
   },
