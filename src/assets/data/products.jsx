@@ -45,7 +45,7 @@ export const highProtein = [
   {
     id: 5,
     name: "Fairlife Protein Shake",
-    image: "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81yMVyOj0XL.jpg",
+    image: "https://m.media-amazon.com/images/I/71AbaZq+FrL.jpg",
     link: "https://amzn.to/3LwzWeq",
     description:
       "Definitely the best on the go protein shake out there. Taste is great and lactose free if you struggle like me. The MACROS are also incredible with only 240 calories and 42g of protein!",
