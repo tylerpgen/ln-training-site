@@ -2,7 +2,6 @@ import { ThemeProvider } from "@emotion/react";
 import { createTheme } from "@mui/material/styles";
 import NewNavbar from "./components/NewNavbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
 import NewHome from "./pages/NewHome";
 import NewTestimonial from "./pages/NewTestimonial";
 import Contact from "./pages/Contact";
