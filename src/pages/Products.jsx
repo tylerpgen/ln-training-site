@@ -21,6 +21,9 @@ function ProductPage() {
         >
           Links to some of my favorite fitness and nutrition items!
         </Typography>
+        {/* Products seperated into different categories in order to have the ability to organize them to client's request */}
+
+        {/* High Protein Category */}
         <Typography
           variant="h5"
           fontSize="1.7rem"
@@ -38,6 +41,8 @@ function ProductPage() {
             <ProductCard product={product} />
           ))}
         </Grid>
+
+        {/* DIY Category */}
         <Typography
           variant="h5"
           fontSize="1.5rem"
@@ -55,6 +60,8 @@ function ProductPage() {
             <ProductCard product={product} />
           ))}
         </Grid>
+
+        {/* Everyday Category */}
         <Typography
           variant="h5"
           fontSize="1.7rem"
@@ -67,6 +74,7 @@ function ProductPage() {
         >
           Everyday Supplements
         </Typography>
+        {/* Product map for data file */}
         <Grid container spacing={4}>
           {products.map((product) => (
             <ProductCard product={product} />

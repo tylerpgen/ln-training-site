@@ -22,6 +22,8 @@ const ProductPage = () => {
         >
           More links to some of my favorite fitness and nutrition items!
         </Typography>
+
+        {/* Gym Bag Category */}
         <Typography
           variant="h5"
           fontSize="1.7rem"
