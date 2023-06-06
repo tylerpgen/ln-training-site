@@ -1,6 +1,5 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import { Email } from "../components/Email";
 import "../styles/Contact.css";
 
 function Contact() {
@@ -34,9 +33,6 @@ function Contact() {
         </a>
       </div>
       <div className="info-container">
-        {/* <div className="form">
-          <Email />
-        </div> */}
         <div className="information">
           <div className="address">
             <Typography variant="h4" p="5px" color="white" fontWeight="bold">

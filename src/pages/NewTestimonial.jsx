@@ -22,7 +22,6 @@ const TestimonialImage = styled("img")(({ theme }) => ({
   maxWidth: "50%",
   minHeight: "100%",
   maxHeight: "290px",
-  // minHeight: "7%",
   margin: "0 8px",
   borderRadius: "10px",
   filter: "drop-shadow(0px 0px 2px #000)",
@@ -63,7 +62,6 @@ const NewTestimonial = () => {
       <Typography variant="h4" align="center" fontWeight="bold" fontFamily="Roboto" sx={{ color: "white", pt: "10px" }}>
         Testimonials
       </Typography>
-
       <Typography
         variant="h5"
         align="center"
