@@ -307,7 +307,7 @@ const NewHome = () => {
                       },
                     }}
                   >
-                    Schedule a Consultation NOW
+                    Limited Spots Apply Now !
                   </Button>
                 </Link>
               </Grow>
