@@ -149,6 +149,7 @@ const NewHome = () => {
 
       <Box>
         <StyledBox>
+          {/* Preventing from page always fading in on scroll */}
           {hasFadeIn ? (
             <>
               <PortraitPic src={Portrait} alt="lukas" className="portrait" />
