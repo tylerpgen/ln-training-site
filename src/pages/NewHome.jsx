@@ -7,6 +7,7 @@ import Portrait from "../assets/new-pics/newportrait.png";
 import TrainingPic1 from "../assets/new-pics/trainingpic1.png";
 
 const NewHome = () => {
+  //Using useState to track if the page has faded in or not
   const [hasFadeIn, setHasFadeIn] = useState(false);
   const theme = useTheme();
 
